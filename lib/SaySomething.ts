@@ -1,4 +1,4 @@
-import {Http} from "angular2/http";
+import {Http} from "@angular/Http";
 
 export class SaySomething {
     constructor(http: Http) {

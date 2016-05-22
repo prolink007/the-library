@@ -1,8 +1,12 @@
 import {Component} from "@angular/core";
 
 @Component({
-    templateUrl: "./ShowSomething.html",
-    selector: "show-something"
+    selector: "show-something",
+    template: `
+        <div class="fancy">
+            Hello World
+        </div>
+    `
 })
 export class ShowSomething {
 }
